@@ -1,0 +1,5 @@
+1) Crea un repositorio GitHub.
+2) Sube app.py, requirements.txt, README.md y .streamlit/secrets.toml.example.
+3) En Streamlit Community Cloud crea la app apuntando a app.py.
+4) En Advanced settings > Secrets pega: OPENAI_API_KEY = "TU_CLAVE"
+5) Deploy.
