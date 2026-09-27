@@ -5,7 +5,9 @@ from decimal import Decimal, InvalidOperation
 from io import BytesIO
 
 import streamlit as st
-from openai import OpenAI
+import urllib.request
+import urllib.error
+import ssl
 
 from reportlab.lib import colors
 from reportlab.lib.enums import TA_CENTER
